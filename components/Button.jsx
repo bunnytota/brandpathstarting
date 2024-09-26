@@ -1,0 +1,51 @@
+import React from 'react';
+import { TouchableOpacity, View, StyleSheet ,Text} from 'react-native';
+import LinearGradient from 'react-native-linear-gradient';
+import Icon from 'react-native-vector-icons/MaterialIcons';
+
+
+const Button = ({ onPress, isSubmitting, value, iconName }) => {
+  return (
+    <TouchableOpacity onPress={onPress} disabled={isSubmitting}>
+      <LinearGradient colors={['#0175b2', '#4b3d91']} style={styles.button}>
+        <View style={styles.buttonContent}>
+          <Icon name={iconName} size={20} color="#ffff" />
+          <View style={styles.textContainer}>
+          <Text  style={[styles.changepin,styles.buttonText]}> {value}</Text>
+          </View>
+        </View>
+      </LinearGradient>
+    </TouchableOpacity>
+  );
+};
+
+const styles = StyleSheet.create({
+  button: {
+    padding: 12,
+    borderRadius: 24,
+    width: 240,
+    alignItems: 'center',
+  },
+  buttonContent: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  textContainer: {
+    marginLeft: 8,
+  },
+
+  changepin: {
+    fontFamily: 'Poppins-Regular',
+    fontWeight: 'bold',
+    textAlign: 'center',
+    fontSize: 12,
+  },
+
+  buttonText: {
+    color: 'white',
+    
+  },
+
+});
+
+export default Button;
