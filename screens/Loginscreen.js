@@ -19,7 +19,7 @@ const schema = yup.object().shape({
     .matches(/^\d{5}$/, 'PIN must be exactly 5 digits')
 });
 
-const Homescreen = ({navigation}) => {
+const Loginscreen = ({navigation}) => {
   const [showkey, setShowkey] = useState(false);
 
   const formik = useFormik({
@@ -45,7 +45,7 @@ const Homescreen = ({navigation}) => {
 
           <TextInput
             placeholder="Your Name"
-            style={[styles.input, styles.placeholder]}
+          
             onChangeText={formik.handleChange('name')}
             onBlur={formik.handleBlur('name')}
             value={formik.values.name}
@@ -88,7 +88,7 @@ const Homescreen = ({navigation}) => {
           <Linebutton value='Change Your PIN' />
         </TouchableOpacity>
       </View>
-      <View style={styles.sharedlayout}><Sharedlayout /></View>
+      {/* <View style={styles.sharedlayout}><Sharedlayout /></View> */}
     </View>
   );
 }
@@ -103,10 +103,11 @@ const styles = StyleSheet.create({
     //marginTop: 12,
   },
   container: {
-    flex: 1,
+    //flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#custombg', // Replace with your custom background color
+    backgroundColor: '#dcdbdb',
+    height:'100%' // Replace with your custom background color
   },
   gradient: {
     position: 'absolute',
@@ -140,7 +141,7 @@ const styles = StyleSheet.create({
   inputContainer: {
     flexDirection: 'row',
     alignItems: 'center',
-    marginBottom: 16,
+    marginBottom: 23,
     width: '100%', // Change from 240 to 100%
     backgroundColor: '#f0f0f0',
     borderRadius: 24,
@@ -249,14 +250,14 @@ const styles = StyleSheet.create({
   otpInput: {
     borderBottomWidth: 1,
     //borderBottomColor: 'black',
-    width: 23, // Increase from 16 to 30
-    height: 31,
+    width: '11%', // Increase from 16 to 30
+    height: 29,
     fontSize: 12, // Increase from 10 to 12 for better readability
     textAlign: 'center',
     //justifyContent:'center',
     padding: 0,
    
-    margin: 2,
+    margin: 5,
     color: 'black', // Add this line to ensure text color is black
   },
   sharedlayout:{
@@ -265,4 +266,4 @@ const styles = StyleSheet.create({
   }
 });
 
-export default Homescreen;
+export default Loginscreen;

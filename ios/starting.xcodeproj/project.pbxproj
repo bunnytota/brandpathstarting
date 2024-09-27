@@ -25,7 +25,7 @@
 		2AB1006BF25C4C4FBFA5140C /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D18F3516344B42C896793ED2 /* Poppins-Regular.ttf */; };
 		6BE45EBB317B4039AB74D268 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04BD64219CF5415A927E2A55 /* Poppins-SemiBold.ttf */; };
 		C43408701835426BB8745EDE /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 947211A3B0424E65AEC135AA /* Poppins-Thin.ttf */; };
-		D340E70AE7A04C8784C687CA /* readme.html in Resources */ = {isa = PBXBuildFile; fileRef = 08FA76E8A51F44608BDB8680 /* readme.html */; };
+		21AA82CBC83B4D9493832E86 /* readme.html in Resources */ = {isa = PBXBuildFile; fileRef = 5481190DC5FC4669941B54D8 /* readme.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,7 +67,7 @@
 		D18F3516344B42C896793ED2 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; name = "Poppins-Regular.ttf"; path = "../assets/fonts/Poppins-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		04BD64219CF5415A927E2A55 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; name = "Poppins-SemiBold.ttf"; path = "../assets/fonts/Poppins-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		947211A3B0424E65AEC135AA /* Poppins-Thin.ttf */ = {isa = PBXFileReference; name = "Poppins-Thin.ttf"; path = "../assets/fonts/Poppins-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		08FA76E8A51F44608BDB8680 /* readme.html */ = {isa = PBXFileReference; name = "readme.html"; path = "../assets/fonts/readme.html"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5481190DC5FC4669941B54D8 /* readme.html */ = {isa = PBXFileReference; name = "readme.html"; path = "../assets/fonts/readme.html"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,7 +187,7 @@
 				D18F3516344B42C896793ED2 /* Poppins-Regular.ttf */,
 				04BD64219CF5415A927E2A55 /* Poppins-SemiBold.ttf */,
 				947211A3B0424E65AEC135AA /* Poppins-Thin.ttf */,
-				08FA76E8A51F44608BDB8680 /* readme.html */,
+				5481190DC5FC4669941B54D8 /* readme.html */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -300,7 +300,7 @@
 				2AB1006BF25C4C4FBFA5140C /* Poppins-Regular.ttf in Resources */,
 				6BE45EBB317B4039AB74D268 /* Poppins-SemiBold.ttf in Resources */,
 				C43408701835426BB8745EDE /* Poppins-Thin.ttf in Resources */,
-				D340E70AE7A04C8784C687CA /* readme.html in Resources */,
+				21AA82CBC83B4D9493832E86 /* readme.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

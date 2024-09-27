@@ -23,8 +23,10 @@ const styles = StyleSheet.create({
   button: {
     padding: 12,
     borderRadius: 24,
-    width: 240,
+    width: '100%',
     alignItems: 'center',
+    marginBottom: 10,
+    
   },
   buttonContent: {
     flexDirection: 'row',

@@ -1,5 +1,5 @@
 import { StyleSheet, Text, View, } from 'react-native'
-import Homescreen from './screens/Homescreen'
+
 import React from 'react'
 import SplashScreen from 'react-native-splash-screen'
 import { useEffect } from 'react'
@@ -10,6 +10,9 @@ import { NavigationContainer } from '@react-navigation/native'
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
 import Changepin from './screens/Changepin'
 import Sharedlayout from './components/Sharedlayout'
+import Loginscreen from './screens/Loginscreen'
+
+
 const Stack = createNativeStackNavigator()
 
 const App = () => {
@@ -20,9 +23,10 @@ const App = () => {
   return (
     <NavigationContainer>
       <Stack.Navigator>
-        <Stack.Screen name="Home" component={Homescreen} options={{headerShown:false}} />
+        <Stack.Screen name="Login" component={Loginscreen} options={{headerShown:false}} />
         <Stack.Screen name="Change" component={Changepin} options={{headerShown:false}} />
       </Stack.Navigator>
+      {/* <Sharedlayout /> */}
     </NavigationContainer>
     
     

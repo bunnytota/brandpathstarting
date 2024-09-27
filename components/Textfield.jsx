@@ -24,7 +24,7 @@ const styles = StyleSheet.create({
   inputContainer: {
     flexDirection: 'row',
     alignItems: 'center',
-    marginBottom: 16,
+    marginBottom: 66,
     width: 240,
     backgroundColor: '#f0f0f0',
     borderRadius: 24,
@@ -42,17 +42,26 @@ const styles = StyleSheet.create({
     flex: 1,
     paddingBottom: 8,
     fontSize: 18,
+    
     marginLeft: 4,
     width: '80%',
   },
   placeholder: {
     fontFamily: 'Poppins-Regular',
     fontWeight: 'bold',
+    
     fontSize: 10,
   },
   inputError: {
     borderColor: 'red',
     borderWidth: 1,
+  },
+
+  changepin: {
+    fontFamily: 'Poppins-Regular',
+    fontWeight: 'bold',
+    textAlign: 'center',
+    fontSize: 10,
   },
 });
 
